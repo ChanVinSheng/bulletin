@@ -1,5 +1,5 @@
 {
-	"version":"3.6",
+	"version":"3.7",
 	"command_list":
 	[
 		{
@@ -264,6 +264,12 @@
 			"name":"SC_REQUEST_BULLETIN_BY_STATE_RETURN",
 			"cmdbyte":"00101032",
 			"payload":"3030313031303077",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REMOVE_BULLETIN_COMMENT",
+			"cmdbyte":"00101033",
+			"payload":"3030313031303078",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
