@@ -1,5 +1,5 @@
 {
-	"version":"3.7",
+	"version":"3.8",
 	"command_list":
 	[
 		{
@@ -270,6 +270,18 @@
 			"name":"SC_REMOVE_BULLETIN_COMMENT",
 			"cmdbyte":"00101033",
 			"payload":"3030313031303078",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_USERCHATROOM",
+			"cmdbyte":"00101034",
+			"payload":"3030313031303079",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_RETRIEVE_USERCHATROOM_ACK",
+			"cmdbyte":"00101035",
+			"payload":"3030313031303080",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
