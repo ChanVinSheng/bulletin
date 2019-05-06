@@ -1,5 +1,5 @@
 {
-	"version":"4.0",
+	"version":"4.1",
 	"command_list":
 	[
 		{
@@ -288,6 +288,18 @@
 			"name":"SC_REMOVE_USERCHATROOM",
 			"cmdbyte":"00101036",
 			"payload":"3030313031303081",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_ALLUSERCHATROOM",
+			"cmdbyte":"00101037",
+			"payload":"3030313031303082",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_RETRIEVE_ALLUSERCHATROOM_ACK",
+			"cmdbyte":"00101038",
+			"payload":"3030313031303083",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
