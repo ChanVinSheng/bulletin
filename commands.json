@@ -1,5 +1,5 @@
 {
-	"version":"4.5",
+	"version":"4.6",
 	"command_list":
 	[
 		{
@@ -336,6 +336,12 @@
 			"name":"SC_REQUEST_CHATROOM_MESSAGE_ACK",
 			"cmdbyte":"0010103E",
 			"payload":"3030313031303089",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_ADD_CHATROOM_MESSAGE",
+			"cmdbyte":"0010103F",
+			"payload":"3030313031303090",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
