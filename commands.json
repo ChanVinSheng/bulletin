@@ -1,5 +1,5 @@
 {
-	"version":"4.4",
+	"version":"4.5",
 	"command_list":
 	[
 		{
@@ -324,6 +324,18 @@
 			"name":"SC_CHATROOM_EXIST_ACK",
 			"cmdbyte":"0010103C",
 			"payload":"3030313031303087",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_CHATROOM_MESSAGE",
+			"cmdbyte":"0010103D",
+			"payload":"3030313031303088",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_CHATROOM_MESSAGE_ACK",
+			"cmdbyte":"0010103E",
+			"payload":"3030313031303089",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
