@@ -1,5 +1,5 @@
 {
-	"version":"5.4",
+	"version":"5.5",
 	"command_list":
 	[
 		{
@@ -414,6 +414,18 @@
 			"name":"SC_FOLLOW_SOCIETY",
 			"cmdbyte":"0010104B",
 			"payload":"3030313031303102",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_FOLLOW_SOCIETY",
+			"cmdbyte":"0010104C",
+			"payload":"3030313031303103",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_REQUEST_FOLLOW_SOCIETY_ACK",
+			"cmdbyte":"0010104D",
+			"payload":"3030313031303104",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
