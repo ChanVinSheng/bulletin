@@ -1,5 +1,5 @@
 {
-	"version":"6.1",
+	"version":"6.2",
 	"command_list":
 	[
 		{
@@ -462,6 +462,18 @@
 			"name":"SC_ADD_BULLETINUSER_ACK",
 			"cmdbyte":"00101053",
 			"payload":"3030313031303110",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_ALERT_NOTIFICATION_SOCIETY",
+			"cmdbyte":"00101054",
+			"payload":"3030313031303111",
+			"reserve":"303030303030303030303030303030303030303030303030"
+		},
+		{
+			"name":"SC_ALERT_NOTIFICATION_SOCIETY_ACK",
+			"cmdbyte":"00101055",
+			"payload":"3030313031303112",
 			"reserve":"303030303030303030303030303030303030303030303030"
 		}
 		
