@@ -1,5 +1,5 @@
 {
-	"version":"4.4",
+	"version":"4.5",
 	"mqttserverurl": "am6g3/bccamnNZCoJ1D+mdAqTzFnY7djRystJrNoD9M=",
 	"mqtttopic": "C1s+5m3QZxUNTePnE4RlErNuhEGDfo/PSKM3KYcOv10IpF9FxMJJUiyquCyd9L85",
 	"mqttusername": "hlVg7n7dZjP1CrHumTG8cQ==",
@@ -11,6 +11,6 @@
 	"databasename":"TbYFOoUC0I8NIMywdHwDqw==",
 
     "androidupdateurl":"https://github.com/ettian529/testingMQTT/blob/master/RemoteConfig/android-version.json",
-    "javaupdateurl":"https://github.com/ChanVinSheng/bulletin/blob/master/java-version.json",
+    "javaupdateurl":"https://raw.githubusercontent.com/ChanVinSheng/bulletin/master/java-version.json",
 	"feedbackreceiveemail":"tanet-aa15@student.tarc.edu.my"
 }
